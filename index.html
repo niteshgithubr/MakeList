@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Mockup Charts</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button class="tab-button active" onclick="showChart('chart1')">Chart 1</button>
+      <button class="tab-button" onclick="showChart('chart2')">Chart 2</button>
+      <button class="tab-button" onclick="showChart('chart3')">Chart 3</button>
+    </div>
+    <div class="chart-container">
+      <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
